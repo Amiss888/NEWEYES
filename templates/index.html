@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+    <title>NEWEYES</title>
+</head>
+<body>
+    <main>
+        <div class="tum">
+            <img class="logo" src="{{ url_for('static', filename='images/Lo.jpg') }}">
+        </div>
+        <header>
+            <div>
+                <h1>NEW&nbsp;EYES</h1>
+            </div>
+        </header>
+        <div class="content">
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This website is designed to assist visually impaired individuals in learning conveniently through electronic devices such as smartphones or tablets. The website operates by utilizing the device’s camera to detect text, converting the text captured from documents, books, or signs into digital data. The extracted text is then processed to ensure accuracy and suitability for further use. Once the text has been processed, the website employs text-to-speech technology to read the text aloud to the user. Users can listen to the text in real time simply by pointing the camera at the desired text.
+            </p>
+        </div>
+        
+            <img src="http://127.0.0.1:5000/video" id="ai" alt="Live Camera Feed">
+        
+    </main>
+    <footer>
+        <h4>CREDIT BY</h4>
+        <div class="ar">
+            <p class="name">Weerawit Pornsatetharat</p>
+            <p class="email">pkpxngkaelngkhn@gmail.com</p>
+        </div>
+        <div class="ar">
+            <p class="name">Phubet Kaikaew</p>
+            <p class="email">smartpoonpoon@gmail.com</p>
+        </div>
+        <div class="ar">
+            <p class="name">Phakchira Phukhang</p>
+            <p class="email">phakchira.ng@gmail.com</p>
+        </div>
+    </footer>
+</body>
+</html>

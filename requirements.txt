@@ -1,0 +1,4 @@
+Flask
+opencv-python
+pytesseract
+pyttsx3 ; sys_platform == 'win32'
