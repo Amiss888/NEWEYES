@@ -3,6 +3,7 @@ import cv2
 import pytesseract
 import time
 import platform
+import os
 
 # เงื่อนไขเฉพาะ Windows เท่านั้น
 if platform.system() == 'Windows':
@@ -70,4 +71,5 @@ def video():
     return Response(generate_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=True)
