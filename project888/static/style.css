@@ -1,0 +1,205 @@
+body {
+    background-image: url("images/braille-7326486_1920.jpg");
+    
+    background-size: cover;
+    
+}
+
+main {
+    display: block;
+    background-color: white;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 75px;
+    margin: 120px 75px 0px;
+    padding: 15px 25px 25px;
+}
+
+.tum{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    height: 20%;
+    width: 20%;
+    border-radius: 90px;
+    margin: 20px 15px 10px;
+}
+
+#ai {
+    display: flex;
+    justify-self: center;
+    margin: 2%;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 75px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+p {
+    display: block;
+    background-color: white;
+    font-size: 23px;
+    margin: 0px 35px 50px;
+}
+
+hr {
+    border:1px dashed black;
+}
+
+footer {
+    background-color: white;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 75px;
+    margin: 80px 250px 120px;
+    padding: 10px 25px 35px;
+
+}
+
+.ar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    color: black;
+    text-align: left;
+    font-size: 30px;
+    width: 370px;
+    margin: 15px 15px;
+}
+
+.email {
+    color: black;
+    text-align: left;
+    font-size: 30px;
+    width: 370px;
+    margin: 15px 15px;
+}
+
+h4 {
+    color: black;
+    text-align: center;
+    font-size: 44px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 430px) {
+    body {
+    background-image: url("images/braille-7326486_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+main {
+    display: block;
+    background-color: white;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 75px;
+    margin: 50px 40px 50px;
+    padding: 0px 0px 10px;
+    width: 80%;
+}
+
+.tum{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    height: 30%;
+    width: 30%;
+    border-radius: 90px;
+    margin: 20px 0px 10px;
+}
+
+
+
+#ai {
+    display: flex;
+    justify-self: center;
+    margin: 5%;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.content{
+    width: 80%;
+    display: flex;
+    justify-self: center;
+}
+
+p {
+    display: block;
+    background-color: white;
+    font-size: 16px;
+    margin: 0px 0px 0px;
+}
+
+hr {
+    border:1px dashed black;
+}
+
+footer {
+    background-color: white;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 40px;
+    margin: 20px 30px 20px;
+    padding: 10px 15px 10px;
+    width: 80%;
+}
+
+.ar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    color: black;
+    text-align: left;
+    font-size: 16px;
+    width: 200px;
+    margin: 10px 15px 15px;
+}
+
+.email {
+    color: black;
+    text-align: left;
+    font-size: 16px;
+    width: 200px;
+    margin: 15px 15px 15px 5px;
+}
+
+h4 {
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+}
